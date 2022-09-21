@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicToe</title>
+    <style>
+    table{
+        width: 150px;
+        height:150px;
+        position: relative;
+        left: 200px;
+        top: 150px;
+        border-collapse: collapse;
+    }
+    
+    td{
+        border:1px solid black;
+    }
+    #lefttop,#righttop,#top{ 
+        border-top: 0px;
+        border-bottom:0ch
+    }
+    #leftbottom,#rightbottom,#bottom{
+        border-bottom:0ch
+    }
+    #lefttop,#leftbottom,#left{
+        border-left:none
+    }
+    #right,#rightbottom,#righttop,#left{
+        border-right:0ch
+    }
+    #middle{
+        border-color:red
+    }
+    
+
+        
+    </style>
+</head>
+
+<body>
+    <div>
+        <table >
+            <tr>
+                <td id="lefttop"></td>
+                <td id="top"></td>
+                <td id="righttop"></td>
+            </tr>
+            <tr>
+                <td id=left></td>
+                <td id="middle"></td>
+                <td id="right"></td>
+            </tr>
+            <tr>
+                <td id="leftbottom"></td>
+                <td id="bottom"></td>
+                <td id="rightbottom"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

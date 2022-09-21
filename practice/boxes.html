@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Telugu&display=swap" rel="stylesheet">
+    <title>Boxes</title>
+    <style>
+        body {
+            background-color: rgb(178, 236, 238);
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .box {
+            margin: 2%;
+            padding: 2%;
+            border: 2px solid red;
+            background-color: blue;
+            color: white;
+
+        }
+
+        .main {
+            background-color: pink;
+        }
+
+        .container {
+            padding: 0.5%;
+
+            /* width:500px; */
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        @media only screen and (max-width:345px) {
+            .box {
+                flex-direction: column;
+                background-color: rgb(189, 143, 236);
+            }
+        }
+
+        a {
+            color: rgb(58, 22, 220);
+        }
+
+        a:hover {
+            color: black;
+            text-indent: 2px;
+            cursor: pointer
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            list-style: none;
+        }
+
+        .nav li {
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .purana {
+            font-size: large;
+            background-color: #fff;
+            color: rgb(103, 55, 4);
+            font-family:'Noto Serif Telugu', serif;
+            list-style: none;
+            padding: 2px;
+            margin: 2px;
+        }
+
+        .purana input[type=checkbox] {
+            height: 0px;
+            width: 0px;
+            margin: 15px;
+        }
+
+        .purana input[type=checkbox]::before {
+            content: "\A0\A0";
+            border: 5px solid rgb(220, 50, 12);
+            border-radius: 50%;
+            background-color: rgb(220, 50, 12);
+            ;
+            /* margin: 15px; */
+            position: relative;
+            bottom: 12px;
+        }
+
+        .purana input[type=checkbox]:checked::before {
+            content: "\2713";
+            color: #a0f56f;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+
+        <head>
+            <ul class="nav">
+                <li><a>Home</a></li>
+                <li><a>PAGE1</a></li>
+                <li><a>PAGE2</a></li>
+                <li><a>PAGE3</a></li>
+            </ul>
+        </head>
+        <div class="container">
+            <div class="box" id="box1">
+                BOX1
+            </div>
+            <div class="box" id="box2">
+                BOX2
+            </div>
+            <div class="box" id="box3">
+                BOX3
+            </div>
+            <div class="box" id="box4">
+                BOX4
+            </div>
+            <div class="box" id="box5">
+                BOX5
+            </div>
+            <div class="box" id="box6">
+                BOX6
+            </div>
+
+        </div>
+        <!--Start Creation of List items -->
+        <div class="purana">
+            <!-- <ul class="purana">
+                <li>Matsya</li>
+                <li>Markendaya</li>
+                <li>Bhagavata</li>
+                <li>Bhavishya</li>
+            </ul> -->
+            <div>
+                <input type="checkbox" name="matsya" id="matsya">
+                <label for="matsya" class="purana">Matsya</label>
+            </div>
+            <div>
+                <input type="checkbox" name="markandeya" id="markandeya">
+                <label for="markandeya" class="purana">Markendaya</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Bhagavata" id="Bhagavata">
+                <label for="Bhagavata" class="purana">Bhagavata</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Bhavishya" id="Bhavishya">
+                <label for="Bhavishya" class="purana">Bhavishya</label>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

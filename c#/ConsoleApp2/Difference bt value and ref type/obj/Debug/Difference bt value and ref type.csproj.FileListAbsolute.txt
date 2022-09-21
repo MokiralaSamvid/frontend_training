@@ -1,0 +1,8 @@
+C:\Users\QualMinds\Desktop\html p\Training\QualmindsTraining\c#\ConsoleApp2\Difference bt value and ref type\bin\Debug\Difference bt value and ref type.exe.config
+C:\Users\QualMinds\Desktop\html p\Training\QualmindsTraining\c#\ConsoleApp2\Difference bt value and ref type\bin\Debug\Difference bt value and ref type.exe
+C:\Users\QualMinds\Desktop\html p\Training\QualmindsTraining\c#\ConsoleApp2\Difference bt value and ref type\bin\Debug\Difference bt value and ref type.pdb
+C:\Users\QualMinds\Desktop\html p\Training\QualmindsTraining\c#\ConsoleApp2\Difference bt value and ref type\obj\Debug\Difference bt value and ref type.csproj.AssemblyReference.cache
+C:\Users\QualMinds\Desktop\html p\Training\QualmindsTraining\c#\ConsoleApp2\Difference bt value and ref type\obj\Debug\Difference bt value and ref type.csproj.SuggestedBindingRedirects.cache
+C:\Users\QualMinds\Desktop\html p\Training\QualmindsTraining\c#\ConsoleApp2\Difference bt value and ref type\obj\Debug\Difference bt value and ref type.csproj.CoreCompileInputs.cache
+C:\Users\QualMinds\Desktop\html p\Training\QualmindsTraining\c#\ConsoleApp2\Difference bt value and ref type\obj\Debug\Difference bt value and ref type.exe
+C:\Users\QualMinds\Desktop\html p\Training\QualmindsTraining\c#\ConsoleApp2\Difference bt value and ref type\obj\Debug\Difference bt value and ref type.pdb

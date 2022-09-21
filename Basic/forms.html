@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fill The Form </title>
+        <style>
+            
+        </style>
+        
+    </head>
+    <body>
+        <form action = "okk" target="_blank">
+            <fieldset>
+            <legend>Personal Information</legend>
+            <label for ="name">Enter Your name</label>
+            <input type="text" id="name" name="name" placeholder="*" required >
+            <br>
+            <label for ="mailid">Enter Your Email id</label>
+            <input type="email" id="mailid" name="mailid"  required placeholder="*">
+            <br>
+            <label for ="phno">Enter your phone number</label>
+            <input type="numbers" id="phno" name= phno>
+            
+            
+            <br>
+            <p>&nbsp Select the gender*</p>
+            <input type="radio" id="male" name="gender">
+            <label for="male" >Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for ="female">Female</label>
+            <input type ="radio" id="Prefer not to say" name="gender">
+            <label for="Prefer not to say">Prefer not to say</label>
+            </fieldset>
+
+            <br>
+            <label for="password">Create a password*</label>
+            <input type="text" id="password" name="password"><br>
+            <label for="conform password">Conform the password*</label>
+            <input type="password" id="conform password" name="conform password"> 
+            <br>
+            <fieldset>
+                <label for="Branch">Select your Branch*</label>
+            <select id="Branch" name="Branch" required>
+                <option>ECE</option>
+                <option>CSE</option>
+                <option>EEE</option>
+                <option>MECH</option>
+                <option>CIVIL</option>
+                <option>NONE</option>
+            </select>
+            <br><br>
+            
+                <legend style="text-align:center">Subjects known</legend> 
+            <label for="subs">Enter The subjects You studied*</label><br>
+            <textarea name="subs" id="subs" rows="24" cols="50" required> </textarea>
+            <br><label for=fav>Enter your favourite subject<br></label>
+            <textarea name="fav" id="fav" rows="10"></textarea>
+
+            
+            </fieldset>
+
+            <fieldset>
+                <legend style="text-align:center">PROJECTS</legend>
+                <label for="miniproject">Write about your mini project<br></label>
+                <textarea name="miniproject" rows="15" cols="50"></textarea>
+                <label for="miniproject"><br>Write about your major project<br></label>
+                <textarea name="miniproject" rows="25" cols="50"></textarea>
+            </fieldset>
+            <br><br>
+            <input type="submit">
+
+
+        </form>
+
+
+    </body>
+</html>

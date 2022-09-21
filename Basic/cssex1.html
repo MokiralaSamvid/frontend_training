@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Score Card</title>
+        <style>
+    
+            fieldset.abt{
+                background-color: rgb(59, 103, 185);
+                border-color: rgb(179, 79, 39);border-width:5pt
+            }
+            fieldset.live{
+                background-color: rgb(81, 128, 128);
+                border-color:rgb(173, 20, 71);border-width:5pt
+            }
+            h4{
+                color:rgb(168, 46, 46);
+            }
+            p{
+                font:100;
+                font-family:'Times New Roman', Times, serif;
+                font-style: italic;
+            }
+            legend{
+                text-align:center;
+                font-family:"Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif";
+                font-weight: bold;text-transform: capitalize;font-variant: small-caps;
+
+            }
+            table{
+                width:70%;
+                background-color: bisque;
+                border-collapse: collapse;
+              
+            }
+            th,td{
+                /* border: 2px solid red; */
+                text-align: right;
+            }
+          .hh{
+            text-align: left;
+          }
+          .players{
+            background-color: gray;
+            border-collapse: collapse;
+          }
+            
+        </style>
+    </head>
+
+    <body>
+        <form>
+        <fieldset style=" background-color:rgb(233, 233, 167);border-radius: 5%; border-width:5px;padding:15px;border-color:pink">
+            <fieldset class="abt">
+            <legend>About match</legend>
+            <h3>India vs England 3rd ODI</h3>
+            <p>India have won toss and choose to filed</p><hr>
+            <p style="color:rgb(241, 227, 227)">India need 90 runs from 140 balls</p><hr>
+            </fieldset>
+            <fieldset class="live">
+                <legend>At crease</legend>
+                <!--<h4>Batter</h4>
+                <label for="pant">R.Pant*:</label>
+                <input style="margin: 5px 10px ; padding: 10px;" type="text" name="pant" id="pant" value="100 in 125 balls "style="color:brown; background-color: rgb(183, 196, 13)" readonly>
+                <br>
+                <label for="pant">H.Pandya: </label>
+                <input type="text" name="pandya" id="pant" value="70 in 65 balls " style="color:brown;background-color: rgb(183, 196, 13); " readonly><hr>
+                <h4>Bowler</h4>
+                <label for="topley">Topley</label>
+                <input type="text" name="topley" id="topley" value = "9.5 overs and 3 wickets" style="background-color:rgb(252, 252, 201)">
+                -->
+                <table >
+                    <tr class="players">
+                        <th class="hh">Batter</th>
+                        <th >runs</th>
+                        <th>balls</th>
+                        <th>4's</th>
+                        <th>6's</th>
+                    </tr>
+                    <tr>
+                        <td style="text-align:left">R.Pant*</td>
+                        <td>100</td>
+                        <td>120</td>
+                        <td>10</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align:left">Hardik</td>
+                        <td>75</td>
+                        <td>60</td>
+                        <td>8</td>
+                        <td>3</td>
+                    </tr>
+                    <tr class="players">
+                        <th style="text-align:left">Bowler</th>
+                        <th>overs</th><th>runs</th><th>wickets</th><th>ECO</th>
+                    </tr>
+                    <tr>
+                        <td style="text-align:left">Topley</td>
+                        <td>8.5</td><td>32</td><td>3</td><td>3.5</td>
+                    </tr>
+
+                </table>
+
+
+            </fieldset>
+        </fieldset>
+            
+
+
+        </form>
+    
+    </body>
+</html>
+

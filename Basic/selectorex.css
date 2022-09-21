@@ -1,0 +1,27 @@
+ /* 1.The * selector */
+ /* *{
+    color:blueviolet
+}  */
+
+
+/* 2.Descendent Selector*/
+li a{
+color:black;
+background-color:lightblue;
+}
+
+/* 3.Adjacant Selector*/
+a+ul{
+    color:red
+}
+
+/* 4.Attribute Selector*/
+a[href = "http://amazon.com/"]{
+    color:green;
+    background-color: black;
+}
+
+/* 5.nth-of-type selector */
+li:nth-of-type(2){
+    background-color: khaki;
+}

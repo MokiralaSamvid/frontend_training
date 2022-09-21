@@ -1,0 +1,8 @@
+C:\Users\QualMinds\Desktop\html p\Training\QualmindsTraining\c#\27thJuly2022\Assignment\bin\Debug\Assignment.exe.config
+C:\Users\QualMinds\Desktop\html p\Training\QualmindsTraining\c#\27thJuly2022\Assignment\bin\Debug\Assignment.exe
+C:\Users\QualMinds\Desktop\html p\Training\QualmindsTraining\c#\27thJuly2022\Assignment\bin\Debug\Assignment.pdb
+C:\Users\QualMinds\Desktop\html p\Training\QualmindsTraining\c#\27thJuly2022\Assignment\obj\Debug\Assignment.csproj.AssemblyReference.cache
+C:\Users\QualMinds\Desktop\html p\Training\QualmindsTraining\c#\27thJuly2022\Assignment\obj\Debug\Assignment.csproj.SuggestedBindingRedirects.cache
+C:\Users\QualMinds\Desktop\html p\Training\QualmindsTraining\c#\27thJuly2022\Assignment\obj\Debug\Assignment.csproj.CoreCompileInputs.cache
+C:\Users\QualMinds\Desktop\html p\Training\QualmindsTraining\c#\27thJuly2022\Assignment\obj\Debug\Assignment.exe
+C:\Users\QualMinds\Desktop\html p\Training\QualmindsTraining\c#\27thJuly2022\Assignment\obj\Debug\Assignment.pdb

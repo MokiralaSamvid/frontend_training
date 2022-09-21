@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recepies</title>
+    <link rel="stylesheet" href="./assignmenti.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+    <!-- Start Menu -->
+    <div id="titlebar">
+        <img id="img1" src="./PICS/MicrosoftTeams-image.png">
+        <div class="titl" id="heading">The Grilled Prawn</div>
+        <a href="" class="titl" >RECEPIES</a>
+        <a href="" class="titl" >DRINKS</a>
+        <a href="" class="titl" >DECORATIONS</a>
+        <a href="" class="titl" >ABOUT THE GRILLED PRAWN</a>
+    </div>
+    
+    <!-- End Menu -->
+
+
+    <!-- Start Image and contentbox-->
+    <div id="part1" style="display:flex;justify-content:space-between;">
+        <img style=" width:75%" src="./PICS/main.PNG">
+        <div id="Latestrecepie">
+            <p>LATEST RECEPIE</p>
+            <h1>Baked Polenta with Cheese and Mushrooms </h1>
+            <p>Polenta, goat cheese, Italian sausage, and cremini mushrooms.
+                All together this will make for pretty darn good side dish to a locely salad. Go for it.
+                <br><br><br>
+                <span style="padding:5px;background-color:white;opacity:0.9;color:black">
+                    <a id="arrow" href=""> Go to recipe &nbsp &#8594 </a>
+                </span>
+            </p>
+        </div>
+    </div>
+    <!-- End Image and contentbox-->
+
+    <!-- Start OurRecepies   -->
+    <div id="part2" class="part2">
+        <h1 style="color:rgb(77, 70, 70)"> Our Recepies</h1>
+        <div style="padding-left: 20px; padding-top: 30px ; display:flex;justify-content: space-between;">
+            <div style="display:flex;gap:35%;background-color:#EA484D;width:20%">
+                <div style="background-color:#EA484D;color:white;padding:4%;;">
+                    Filter recepies by
+                </div>
+                <div style="background-color:#EA484D;padding-left:6%;padding-top:3%;padding-right:2%"><a href="" style="color:white;">&#9472</a></div>
+            </div>
+            <!-- Start Add selection items -->
+            <div>
+                <label for="selectrecepies" style="font: size 23px;;"> &emsp;Sort by&emsp; </label>
+                <select name="selectrecepies" style="position:relative;bottom:10px;height:80%;border-radius:10%">
+                    <option value="new1st">Newest first</option>
+                    <option value="old1st">oldest first</option>
+                    <option value="random">Random</option>
+                </select>
+            </div>
+            <!--Close Add selection items -->
+
+            <!-- Start search input -->
+            <div>
+                <input type="search" id="search" placeholder=" &#128269;Search recipe" style="border:none;height:80%">
+            </div>
+            <!-- Close search input -->
+        </div>
+
+        <!-- Start Add radio buttons and Check boxes -->
+        <div
+            style="display:flex;padding-left: 20px;background-color:#EA484D;margin-left:20px;margin-right: 40px;;justify-content:space-between;">
+            <!-- Start Add radio buttons -->
+            <div class="cbox" style="background-color:#EA484D;color:white;padding: 2%;">
+                Food type:<br>
+                <input type="checkbox" id="appetisers" name="type">
+                <label for="apptisers">Apptisers</label><br>
+                <input type="checkbox" id="Mains" name="type" checked>
+                <label for="Mains">Mains</label><br>
+                <input type="checkbox" id="desserts" name="type">
+                <label for="Desserts">Desserts</label><br>
+                <input type="checkbox" id="Special Occassions" name="type">
+                <label for="Special Occassions">Special Occassions</label>
+            </div>
+            <br>
+            <!-- Close Add radio buttons -->
+
+            <!-- Start Add white horizontal line -->
+            <div id="wborder">
+
+            </div>
+            <!-- End Add white horizontal line -->
+
+
+
+            <!-- Start Adding Checkbox-1 -->
+            <div class="cbox" style="margin-top: 02%;">
+                <!-- Add Nationality -->
+                <div style=color:white;>
+                    Nationality:
+                </div>
+                <!-- Stop Nationality -->
+
+                <input type="checkbox" id="Italian" name="type2" class="type2">
+                <label for="Italain">Italian(34)</label><br>
+                <input type="checkbox" id="French" name="type2" class="type2" checked>
+                <label for="French">French(30)</label><br>
+                <input type="checkbox" id="Spanish" name="type2" class="type2" checked>
+                <label for="Spanish">Spanish(22)</label><br>
+                <input type="checkbox" id="Peruvian" name="type2" class="type2">
+                <label for="Peruvian">Peruvian(3)</label>
+            </div>
+            <!-- Close Adding Checkbox-1 -->
+
+
+            <!-- Start Adding Checkbox-2 -->
+            <div class="cbox" style="margin-top:3.5%" >
+                <input type="checkbox" id="Chinese" name="type2" class="type2" >
+                <label for="Chinese">Chinese(18)</label><br>
+                <input type="checkbox" id="Indian" name="type2" class="type2">
+                <label for="Indian">Indian(13)</label><br>
+                <input type="checkbox" id="Thai" name="type2" class="type2" checked>
+                <label for="Thai">Thai(10)</label><br>
+                <input type="checkbox" id="Norwegian" name="type2" class="type2">
+                <label for="Norwegian">Norwegian(4)</label>
+            </div>
+
+            <!-- Close Adding Checkbox-2 -->
+
+            <!-- Start Adding Checkbox-3 -->
+            <div class="cbox" style="margin-top:3.5%">
+                <input type="checkbox" id="Polish" name="type2" class="type2">
+                <label for="Polish">Polish(2)</label><br>
+                <input type="checkbox" id="Danish" name="type2" class="type2" checked>
+                <label for="Danish">Danish(3)</label><br>
+                <input type="checkbox" id="Belgian" name="type2" class="type2">
+                <label for="Belgian">Belgian(7)</label><br>
+                <input type="checkbox" id="Persian" name="type2" class="type2">
+                <label for="Persian">Persian(13)</label>
+            </div>
+            <!-- Close Adding Checkbox-3 -->
+        </div>
+        <!-- Close Start Add radio buttons and Check boxes -->
+    </div>
+    <!-- End OurRecepies -->
+
+    <!-- Start Part3 images part -->
+    <div class="part3">
+        <!-- 1st Row -->
+        <div class="p3" style="display:flex;">
+            <!-- card 1 -->
+            <div class="item">
+                <div class=" pcontent" style="display:flex;">
+                    <p class="date">5th March 2016 </p>
+                    <p class="place">THAI</p><br>
+                </div>
+                <p class="p3data">
+                    Thai Yellow Curry Noodles with Shiitake Mushrooms.
+                </p>
+                <div class="items-image">
+                    <img class="p3img" src="./PICS/img1.PNG">
+                </div>
+            </div>
+
+       
+
+            <!-- card 2 -->
+            <div class="item">
+                <div class="pcontent" style="display:flex">
+                    <p class="date">17th March 2016 </p>
+                    <p class="place">ITALIAN</p><br>
+                </div>
+                <p class="p3data">
+                    Cappellini with Cherry Tomatoes and Fresh Basil.<br><br>
+                </p>
+                <div class="items-image">
+                    <img class="p3img" src="PICS/img2.PNG">
+                </div>
+            </div>
+            <!-- card 3 -->
+            <div class="item">
+                <div class=" pcontent" style="display:flex">
+                    <p class="date">4th April 2016 </p>
+                    <p class="place">ITALIAN</p><br>
+                </div>
+                <p class="p3data">
+                    Baked Turkey Sausage and Mascarpone Stuffed Shells.
+                </p>
+                <div class="items-image">
+                    <img class="p3img" src="./PICS/img3.PNG">
+                </div>
+            </div>
+            <!-- card 4 -->
+            <div class="item">
+                <div class=" pcontent" style="display:flex">
+                    <p class="date">24th May 2016 </p>
+                    <p class="place">ITALIAN</p><br>
+                </div>
+                <p class="p3data">
+                    Caramelised Apple and Herb Fiocchi.<br><br>
+                </p>
+                <div class="items-image">
+                    <img class="p3img" src="./PICS/img4.PNG">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="rowgap">
+
+        </div>
+        <!-- 2nd row -->
+        <div class="p3" style="display:flex;">
+            <!-- card 5 -->
+            <div class="item">
+                <div class=" pcontent" style="display:flex">
+                    <p class="date">25th May 2016 </p>
+                    <p class="place">SPANISH</p><br>
+                </div>
+                <p class="p3data">
+                    Pumpkin Beer Cheese Soup.<br><br>
+                </p>
+                <div class="items-image">
+                    <img class="p3img" src="./PICS/img5.PNG">
+                </div>
+            </div>
+           
+
+            <!-- card 6 -->
+            <div class="item">
+                <div class=" pcontent" style="display:flex">
+                    <p class="date">22nd SEPTEMBER 2016 </p>
+                    <p class="place">THAI</p>
+                </div>
+                <p class="p3data">
+                    Yum Woon Sen with Shrimp (Glass noodle salad with Shrimp).
+                </p>
+                <div class="items-image">
+                    <img class="p3img" src="./PICS/img6.PNG">
+                </div>
+            </div>
+            <!-- card 7 -->
+            <div class="item">
+                <div class=" pcontent" style="display:flex">
+                    <p class="date">14th OCTOBER 2016 </p>
+                    <p class="place">THAI</p><br>
+                </div>
+                <p class="p3data">
+                    Beef Satay.<br><br><br>
+                </p>
+                <div class="items-image">
+                    <img class="p3img" src="./PICS/img7.PNG">
+                </div>
+            </div>
+            <!-- card 8 -->
+            <div class="item">
+                <div class=" pcontent" style="display:flex">
+                    <p class="date">29th OCTOBER 2016 </p>
+                    <p class="place">FRENCH</p><br>
+                </div>
+                <p class="p3data">
+                    Creamy French Onion Soup Dip in a Bread Bowl.
+                </p>
+                <div class="items-image">
+                    <img class="p3img" src="./PICS/img8.PNG">
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- 3rd row -->
+        <div class="p3" style="display:flex;">
+            <!-- card 9 -->
+            <div class="item">
+                <div class=" pcontent" style="display:flex">
+                    <p class="date">11th NOVEMBER 2016 </p>
+                    <p class="place">SPANISH</p><br>
+                </div>
+                <p class="p3data">
+                    Bocadillo Bites.<br><br>
+                </p>
+                <div class="items-image">
+                    <img class="p3img" src="./PICS/img9.PNG">
+                </div>
+            </div>
+            
+
+            <!-- card 10 -->
+            <div class="item">
+                <div class=" pcontent" style="display:flex">
+                    <p class="date">12th November 2016 </p>
+                    <p class="place">SPANISH</p><br>
+                </div>
+                <p class="p3data">
+                    Paella.<br><br>
+                </p>
+                <div class="items-image">
+                    <img class="p3img" src="./PICS/img10.PNG">
+                </div>
+            </div>
+
+            
+            <!-- card 11 -->
+            <div class="item">
+                <div class=" pcontent" style="display:flex">
+                    <p class="date">24th December 2016 </p>
+                    <p class="place">THAI</p><br>
+                </div>
+                <p class="p3data">
+                    Spicy black Bean Burger.<br><br>
+                </p>
+                <div class="items-image">
+                    <img class="p3img" src="./PICS/img11.PNG">
+                </div>
+            </div>
+           
+            <!-- card 12 -->
+            <div class="item">
+                <div class=" pcontent" style="display:flex">
+                    <p class="date">9th January 2017 </p>
+                    <p class="place">ITALIAN</p><br>
+                </div>
+                <p class="p3data">
+                    Fresh Fig and Pistachio Salad.
+                </p>
+                <div class="items-image">
+                    <img class="p3img" src="./PICS/img12.PNG">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Close Part3 images part -->
+
+    <!-- Start Add Return button -->
+    <div>
+        <button type="button"
+            style="margin-top:60px;margin-left:50px;margin-bottom:60px;color:#EA484D;font-size: 22px;border:none;"
+            id="but1">
+            Return to the top &#8743;
+        </button>
+    </div>
+    <!-- Start Add Return button -->
+
+    <!-- Start Spread the word! -->
+    <div style="background-color:#EA484D;padding: 50px;color:white;font-family: 'Poppins', sans-serif;;">
+        <p style="color:white;font-size: 30px;margin-top:0px;margin-bottom: 10px;"> Spread the word!</p>
+        <p style="color:white;font-size: 15px;width:20%">
+            Our recepies are awesome, sign up to our newsletter and invite friends to join the Grilled Prawn cult<br>
+        </p>
+        <div style="display:flex;gap:15%">
+            <div class="botom">
+                <label for="nam" id="nam" style="font-size:20px">Name <br></label>
+                <input type="text" name="nam">
+            </div>
+            <div class="botom">
+                <label for="snam" id="nam" style="font-size:20px">Surname <br></label>
+                <input type="text" name="snam">
+            </div>
+            <div class="botom">
+                <label for="mail" id="nam" style="font-size:20px">Email Address <br></label>
+                <input type="email" name="mail">
+            </div>
+            <div style="margin:auto;padding-top:10px;font-size:20px">
+                <i class="material-icons">delete</i>
+                <a href="" style="color:white">Remove</a>
+            </div>
+        </div>
+        <hr style=margin-top:1%>
+        <div style="display:flex;gap:15%">
+            <div class="botom">
+                <label for="nam" id="nam" style="font-size:20px">Name <br></label>
+                <input type="text" name="nam">
+            </div>
+            <div class="botom">
+                <label for="snam" id="nam" style="font-size:20px">Surname <br></label>
+                <input type="text" name="snam">
+            </div>
+            <div class="botom">
+                <label for="mail" id="nam" style="font-size:20px">Email Address <br></label>
+                <input type="email" name="mail">
+            </div>
+            <div style="margin:auto;padding-top:10px;font-size:20px">
+                <button
+                    style="border:none;background-color:#EA484D;color:white;border-color: white;width:200px;height:30px;margin-top:10px">Add
+                    Friend</button>
+            </div>
+        </div>
+        <button id="lbutton">
+            <a href="">Send &#8594; </a>
+        </button>
+    </div>
+    <!-- End Spread the word! -->
+
+
+    <!-- Start Footer part -->
+    <div style="background-color:rgb(243, 237, 237);margin:50px;display:flex;justify-content:space-evenly">
+        <div class="ldiv">
+            <h3 style="color:#4D4646">Our Recepies </h3>
+            <p class="las"> All our recepies are tested thoroughly by us to make sure they're suitable for your
+                kitchen at home. We know many of you are concerned about healthy eating, so we send them to a qualified
+                nutritionist for thorough analysis too</p>
+        </div>
+        <div class="ldiv">
+            <h3 style="color:#4D4646">Grilled Praw's History </h3>
+            <p class="las"> The Grilled Prawn is a fictional food blog created in January 2015.</p>
+        </div>
+
+        <div class="ldiv">
+            <h3 style="color:#4D4646">Tips and tricks </h3>
+            <p class="las"> Not sure how to do something? Don't panic. We have plenty of tutorials for you.</p>
+        </div>
+
+        <div class="ldiv">
+            <h3 style="color:#4D4646">Help and Contact</h3>
+            <p class="las"> Struggling with one of the recepies? </p>
+            <a href="" style="color:#EA484D">Send us an email</a>
+            <p>
+                We are always happly to try new things, send us your suggestions!
+            </p>
+        </div>
+
+        <div class="ldiv">
+            <h3 style="color:#4D4646"> &#169; The Grilled Prawn </h3>
+            <p class="las">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ratione, adipisci iusto
+                sequi, atque quos recusandae magni, commodi reiciendis saepe nesciunt. Iure excepturi assumenda vitae
+                magni molestias culpa quos quas!
+                Mollitia quo fuga nesciunt in aliquid pariatur modi vel, adipisci necessitatibus est? Nesciunt magni
+                accusantium voluptates, quae veritatis quod explicabo libero ratione officiis amet asperiores atque
+                iusto architecto culpa beatae?</p>
+        </div>
+    </div>
+    <!-- End Footer part -->
+
+
+</body>
+
+</html>
